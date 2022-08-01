@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <!-- estilos -->
+    <link rel="stylesheet" href="./scss/main.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- ! -->
 
@@ -19,9 +18,51 @@
 
 <body>
     <header>
-
+        <!-- menu nav -->
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#">Menu</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Promos</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Delivery</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#">Ubicacion</a>
+        </nav>
     </header>
     <main>
+        <!-- banners -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./img/banner-empanadas.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/banner-empanadas.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/banner-empanadas.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section class="bannerPromo">
+            <img src="./img/hamburguesa2.jpg" class="img-fluid" alt="...">
+        </section>
+        <div class="tituloPromos">
+            <h1 class="display-3">PROMOCIONES</h1>
+        </div>
+        <section class="seccionPromos">
+            <img src="./img/birras.jpg" alt="...">
+            <img src="./img/empanada.jpg" alt="...">
+            <img src="./img/hamburguesa3.jpg" alt="...">
+            <img src="./img/picada.jpg" alt="...">
+        </section>
 
     </main>
     <footer>

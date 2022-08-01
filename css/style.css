@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+nav {
+  background-color: grey; }
+  nav .nav-link {
+    color: black; }
+    nav .nav-link:hover {
+      color: white; }
+
+.bannerPromo {
+  width: 100%;
+  margin-top: 4vw;
+  margin-left: auto;
+  margin-right: auto; }
+
+.tituloPromos {
+  text-align: center;
+  margin-top: 1rem; }
+
+.seccionPromos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 4vw;
+  justify-content: center; }
+  .seccionPromos img {
+    margin: 5px; }

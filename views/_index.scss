@@ -1,0 +1,36 @@
+// home
+
+nav {
+    background-color: grey;
+    .nav-link {
+        color: black;
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.bannerPromo {
+    width: 100%;
+    margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tituloPromos {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.seccionPromos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 4vw;
+    justify-content: center;
+
+    img {
+        margin: 5px;
+    }
+    
+}
