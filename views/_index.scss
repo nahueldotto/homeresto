@@ -1,36 +1,74 @@
 // home
 
-nav {
+.nav {
+    height: 5rem;
+    align-items: center;
     background-color: grey;
+
     .nav-link {
         color: black;
+        font-size: 2rem;
+        font-weight: 600;
         &:hover {
             color: white;
         }
     }
 }
+// CAROUSEL
 
-.bannerPromo {
-    width: 100%;
-    margin-top: 4vw;
-    margin-left: auto;
-    margin-right: auto;
+.carousel {
+    margin-bottom: 2vw;
 }
+
+// BANNER 1
+.bannerPromo {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+    box-shadow: 5px 8px 12px black;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    a {
+        font-size: 3rem;
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+// CONTENIDO
 
 .tituloPromos {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .seccionPromos {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 4vw;
+    align-items: center;
     justify-content: center;
+    margin: auto;
 
     img {
-        margin: 5px;
+        max-width: 360px;
+        margin: 4px;
     }
     
 }
